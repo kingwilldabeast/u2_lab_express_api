@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spy Movies</title>
+</head>
+<body>
+    <form>
+        <input type="text"  value="" placeholder="Search movies!"  id="inputBar">
+        <input type="button"  value="Search" id="searchButton">
+    </form>
+    
+    <h1 id="head">Spy Movie Directory</h1>
+    <div id="card">
+        <h2 id="movieName">Name</h2>
+        <div class="image-pair">
+        <div class="image-container"><img id="pokemonImage1"/></div>
+        <!-- <div class="image-container"><img id="pokemonImage2"/></div> -->
+        </div>
+        <div id="statbar">
+            <div class="container">
+                <p class="info" id="stat1">Released:</p>
+                <p class="info" id="value1"></p>
+            </div>
+            <div class="container">
+                <p class="info" id="stat2">Rating:</p>
+                <p class="info" id="value2"></p>
+            </div>
+            <div class="container">
+                <p class="info" id="stat3">Runtime:</p>
+                <p class="info" id="value3"></p>
+            </div>
+        </div>
+        <div class="container">
+            <p class="info" id="stat4">Plot:</p>
+            <p class="info" id="value4"></p>
+        </div>
+    </div>
+    <!-- <img id="spinPikachu" src="pikachu.png" alt="Spin Image">
+    <input type="button"  value="Dangers of Pokemon" id="infoButton"> -->
+
+
+</body>
+</html>
