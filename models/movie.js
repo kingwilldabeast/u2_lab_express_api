@@ -1,6 +1,6 @@
 const { Schema } = require('mongoose')
 
-const Movie = new Schema(
+const movieSchema = new Schema(
     {
         title: {type: String, required: true},
         runtimeMinutes: {type: Number, required: true},
@@ -8,6 +8,8 @@ const Movie = new Schema(
         releaseYear: {type: Number, required: true},
         description: {type: String, required: true},
         poster_img: {type: String, required: true},
+        actors: [{type: Schema.Types.ObjectId, ref: 'Actor' }],
+        reviews: [{type: Schema.Types.ObjectId, ref: 'Review' }]
     },
     {timestamps: true}
 
@@ -18,7 +20,6 @@ const Movie = new Schema(
 // module.exports = Movie
 
 //ALTERNATE WITHOUT INDEX.JS
-
 const mongoose = require('mongoose')
-module.exports = mongoose.model('movie', Movie)
-// module.exports = mongoose.model('movies', Movie)
+module.exports = mongoose.model('Movie', movieSchema)
+// module.exports = mongoose.model('movies', movieSchema)

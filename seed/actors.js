@@ -1,9 +1,10 @@
 //this is a child of movie/movies
 
-// have an array of ten actors 
-
 const db = require('../db')
-const { Movie, Actor } = require('../models')
+
+// const { Movie, Actor } = require('../models') //with index.js?
+const Movie  = require('../models/movie')
+const Actor  = require('../models/actor')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 

@@ -1,13 +1,23 @@
 //this is the parent collection
-//list out array of five movies
 
 const db = require('../db')
-const { Movie } = require('../models')
+
+// const {Movie}  = require('../models') //with index.js?
+const Movie  = require('../models/movie')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
+const resetCollections = async () => {
+    try {
+        await Movie.deleteMany({});
+        console.log('Reviews collection reset');
+    } catch (error) {
+        console.error('Error resetting collections:', error);
+    }
+};
+
 const main = async () => {
-   
+    await resetCollections();   
     const movies = [
         {
             "title": "Skyfall",
@@ -15,7 +25,7 @@ const main = async () => {
             "rating": "PG-13",
             "releaseYear": 2012,
             "description": "James Bond's loyalty to M is tested when her past comes back to haunt her. As MI6 comes under attack, 007 must track down and destroy the threat, no matter how personal the cost.",
-            "poster_img": "https://example.com/skyfall.jpg"
+            "poster_img": "https://example.com/skyfall.jpg",
         },
         {
             "title": "Mission: Impossible - Fallout",
@@ -98,7 +108,6 @@ const main = async () => {
 
 const run = async () => {
     await main() 
-    //closes database
     db.close()
 }
 
