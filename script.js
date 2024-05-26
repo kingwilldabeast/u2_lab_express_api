@@ -3,7 +3,7 @@ let movieName = document.querySelector("#movieName")
 let value1 = document.querySelector("#value1")
 let value2 = document.querySelector("#value2")
 let value3 = document.querySelector("#value3")
-let value4 = document.querySelector("#value4")
+let value4 = document.querySelector("#plot-content")
 
 button.addEventListener('click', async ()=> {
   let input = document.querySelector("#inputBar").value
@@ -18,6 +18,8 @@ button.addEventListener('click', async ()=> {
     value2.innerText = response.data.rating
     value3.innerText = response.data.runtimeMinutes
     value4.innerText = response.data.description
+
+    //somehow i need to access an array of actors and reviews from the movie object. but how? if only the child has the parent?
 
   } catch (error) {
     console.error('Error fetching data:', error);  
