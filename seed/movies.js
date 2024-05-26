@@ -10,7 +10,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 const resetCollections = async () => {
     try {
         await Movie.deleteMany({});
-        console.log('Reviews collection reset');
+        console.log('Movie collection reset');
     } catch (error) {
         console.error('Error resetting collections:', error);
     }
