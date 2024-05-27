@@ -40,7 +40,7 @@ const main = async () => {
             name: "Daniel Craig",
             age: 54,
             alive: true,
-            headshot_img: "https://example.com/daniel-craig.jpg"
+            headshot_img: "assets/craig.png"
         },
         
         {
@@ -48,7 +48,7 @@ const main = async () => {
             name: "Judi Dench",
             age: 89,
             alive: true,
-            headshot_img: "https://example.com/judi-dench.jpg"
+            headshot_img: "assets/dench.png"
         },
         
         {
@@ -56,7 +56,7 @@ const main = async () => {
             name: "Javier Bardem",
             age: 54,
             alive: true,
-            headshot_img: "https://example.com/javier-bardem.jpg"
+            headshot_img: "assets/bardem.png"
         },
         
         {
@@ -64,7 +64,7 @@ const main = async () => {
             name: "Tom Cruise",
             age: 61,
             alive: true,
-            headshot_img: "https://example.com/tom-cruise.jpg"
+            headshot_img: "assets/cruise.png"
         },
 
         {
@@ -72,7 +72,7 @@ const main = async () => {
             name: "Henry Cavill",
             age: 40,
             alive: true,
-            headshot_img: "https://example.com/henry-cavill.jpg"
+            headshot_img: "assets/cavill.png"
         },
 
         {
@@ -80,63 +80,63 @@ const main = async () => {
             name: "Rebecca Ferguson",
             age: 40,
             alive: true,
-            headshot_img: "https://example.com/rebecca-ferguson.jpg"
+            headshot_img: "assets/ferguson.png"
         },
         {
             movie: movieMap['The Bourne Identity']._id,
             name: "Matt Damon",
             age: 53,
             alive: true,
-            headshot_img: "https://example.com/matt-damon.jpg"
+            headshot_img: "assets/damon.png"
         },
         {
             movie: movieMap['The Bourne Identity']._id,
             name: "Franka Potente",
             age: 49,
             alive: true,
-            headshot_img: "https://example.com/franka-potente.jpg"
+            headshot_img: "assets/franka.png"
         },
         {
             movie: movieMap['The Bourne Identity']._id,
             name: "Chris Cooper",
             age: 72,
             alive: true,
-            headshot_img: "https://example.com/chris-cooper.jpg"
+            headshot_img: "assets/cooper.png"
         },
         {
             movie: movieMap['Tinker Tailor Soldier Spy']._id,
             name: "Gary Oldman",
             age: 66,
             alive: true,
-            headshot_img: "https://example.com/gary-oldman.jpg"
+            headshot_img: "assets/oldman.png"
         },
         {
             movie: movieMap['Tinker Tailor Soldier Spy']._id,
             name: "Colin Firth",
             age: 63,
             alive: true,
-            headshot_img: "https://example.com/colin-firth.jpg"
+            headshot_img: "assets/firth.png"
         },
         {
             movie: movieMap['Tinker Tailor Soldier Spy']._id,
             name: "Tom Hardy",
             age: 46,
             alive: true,
-            headshot_img: "https://example.com/tom-hardy.jpg"
+            headshot_img: "assets/hardy.png"
         },
         {
             movie: movieMap['Casino Royale']._id,
             name: "Eva Green",
             age: 43,
             alive: true,
-            headshot_img: "https://example.com/eva-green.jpg"
+            headshot_img: "assets/eva.png"
         },
         {
             movie: movieMap['Casino Royale']._id,
             name: "Mads Mikkelsen",
             age: 58,
             alive: true,
-            headshot_img: "https://example.com/mads-mikkelsen.jpg"
+            headshot_img: "assets/mads.png"
         }
 
     ]

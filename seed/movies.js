@@ -25,7 +25,7 @@ const main = async () => {
             "rating": "PG-13",
             "releaseYear": 2012,
             "description": "James Bond's loyalty to M is tested when her past comes back to haunt her. As MI6 comes under attack, 007 must track down and destroy the threat, no matter how personal the cost.",
-            "poster_img": "https://example.com/skyfall.jpg",
+            "poster_img": 'assets/skyfall.png',
         },
         {
             "title": "Mission: Impossible - Fallout",
@@ -33,7 +33,7 @@ const main = async () => {
             "rating": "PG-13",
             "releaseYear": 2018,
             "description": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
-            "poster_img": "https://example.com/mission_impossible_fallout.jpg"
+            "poster_img": "assets/fallout.png"
         },
         {
             "title": "The Bourne Identity",
@@ -41,7 +41,7 @@ const main = async () => {
             "rating": "PG-13",
             "releaseYear": 2002,
             "description": "A man is picked up by a fishing boat, bullet-riddled and without memory, then races to elude assassins and recover from amnesia.",
-            "poster_img": "https://example.com/the_bourne_identity.jpg"
+            "poster_img": "assets/bourne.png"
         },
         {
             "title": "Tinker Tailor Soldier Spy",
@@ -49,7 +49,7 @@ const main = async () => {
             "rating": "R",
             "releaseYear": 2011,
             "description": "In the bleak days of the Cold War, espionage veteran George Smiley is forced from semi-retirement to uncover a Soviet agent within MI6.",
-            "poster_img": "https://example.com/tinker_tailor_soldier_spy.jpg"
+            "poster_img": "assets/tinker.png"
         },
         {
             "title": "Casino Royale",
@@ -57,7 +57,7 @@ const main = async () => {
             "rating": "PG-13",
             "releaseYear": 2006,
             "description": "After earning 00 status and a license to kill, Secret Agent James Bond sets out on his first mission as 007.",
-            "poster_img": "https://example.com/casino_royale.jpg"
+            "poster_img": "assets/casino.png"
         },
         {
             "title": "Kingsman: The Secret Service",
@@ -65,7 +65,7 @@ const main = async () => {
             "rating": "R",
             "releaseYear": 2014,
             "description": "A spy organization recruits a promising street kid into the agency's training program, while a global threat emerges from a twisted tech genius.",
-            "poster_img": "https://example.com/kingsman_the_secret_service.jpg"
+            "poster_img": "assets/kingsman.png"
         },
         {
             "title": "Bridge of Spies",
@@ -73,7 +73,7 @@ const main = async () => {
             "rating": "PG-13",
             "releaseYear": 2015,
             "description": "During the Cold War, an American lawyer is recruited to defend an arrested Soviet spy in court, and then help the CIA facilitate an exchange of the spy for the Soviet-captured American U2 spy plane pilot, Francis Gary Powers.",
-            "poster_img": "https://example.com/bridge_of_spies.jpg"
+            "poster_img": "assets/bridge.png"
         },
         {
             "title": "Argo",
@@ -81,7 +81,7 @@ const main = async () => {
             "rating": "R",
             "releaseYear": 2012,
             "description": "Acting under the cover of a Hollywood producer scouting a location for a science fiction film, a CIA agent launches a dangerous operation to rescue six Americans in Tehran during the U.S. hostage crisis in Iran in 1979.",
-            "poster_img": "https://example.com/argo.jpg"
+            "poster_img": "assets/argo.png"
         },
         {
             "title": "The Spy Who Loved Me",
@@ -89,7 +89,7 @@ const main = async () => {
             "rating": "PG",
             "releaseYear": 1977,
             "description": "James Bond investigates the hijacking of British and Russian submarines carrying nuclear warheads, with the help of a KGB agent whose lover he killed.",
-            "poster_img": "https://example.com/the_spy_who_loved_me.jpg"
+            "poster_img": "assets/loved.png"
         },
         {
             "title": "Atomic Blonde",
@@ -97,7 +97,7 @@ const main = async () => {
             "rating": "R",
             "releaseYear": 2017,
             "description": "An undercover MI6 agent is sent to Berlin during the Cold War to investigate the murder of a fellow agent and recover a missing list of double agents.",
-            "poster_img": "https://example.com/atomic_blonde.jpg"
+            "poster_img": "assets/atomic.png"
         }
     ]
     
