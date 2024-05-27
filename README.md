@@ -4,6 +4,7 @@
 
 ## GAMEMDB - The GA Mongoose Express Movie Database (this name still needs work)
 
+Note: Used ChatGPT for reformatting seed files, and multiple API/axios calls in script.js
 
 <img src="https://www.raisingedmonton.com/wp-content/uploads/2020/06/Depositphotos_175956732_l-2015.jpg"/>
 
