@@ -31,7 +31,7 @@ button.addEventListener('click', async ()=> {
         let singleActor = await axios.get(`http://localhost:3001/actors/${actorID}`);
         const newElement = document.createElement('div');
         newElement.classList.add('info');
-        newElement.innerText = singleActor.data.name;
+        newElement.innerHTML = `<a href = http://localhost:3001/actors/${actorID}>${singleActor.data.name}</a>`
         actorList.appendChild(newElement);
       } catch (error) {
         console.error(`Error fetching actor with ID ${actorID}:`, error);
@@ -58,7 +58,7 @@ button.addEventListener('click', async ()=> {
         let singleReview = await axios.get(`http://localhost:3001/reviews/${reviewID}`);
         const newElement = document.createElement('div');
         newElement.classList.add('info');
-        newElement.innerText = singleReview.data.comment;
+        newElement.innerHTML = `<a href = http://localhost:3001/reviews/${reviewID}>${singleReview.data.comment}</a>`
         reviewList.appendChild(newElement);
       } catch (error) {
         console.error(`Error fetching review with ID ${reviewID}:`, error);
