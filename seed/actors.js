@@ -1,12 +1,12 @@
 //this is a child of movie/movies
 
 const db = require('../db')
+db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 // const { Movie, Actor } = require('../models') //with index.js?
 const Movie  = require('../models/movie')
 const Actor  = require('../models/actor')
 
-db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 const resetCollections = async () => {
     try {
